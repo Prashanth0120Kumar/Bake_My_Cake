@@ -1,0 +1,149 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "cake",
+      "image": "Berries Summer Cupcakes",
+      "name": "Berries Cupcake",
+      "rating": 4.2,
+      "price": 5.5,
+      "description": "Indulge in the refreshing flavors of summer with our Berries Summer Cupcake. A delightful blend of fresh berries and fluffy cake that will transport your taste buds to sunny days and picnics in the park."
+    },
+    {
+      "id": 2,
+      "category": "brownie",
+      "image": "Brownies Different Flavor",
+      "name": "Delicious Brownies",
+      "rating": 4.6,
+      "price": 6.5,
+      "description": "Experience the rich and decadent world of brownies with our Different Flavoured Brownies. From classic chocolate to exotic flavors, each bite is a journey into a world of delight and temptation."
+    },
+    {
+      "id": 3,
+      "category": "cookie",
+      "image": "Butter Cookies",
+      "name": "Butter Cookies",
+      "rating": 4.1,
+      "price": 2.5,
+      "description": "Melt-in-your-mouth perfection awaits with our Butter Cookies. These delicate treats are baked to golden perfection, featuring a rich buttery taste that will leave you craving for more."
+    },
+    {
+      "id": 4,
+      "category": "cake",
+      "image": "Chocolate Blueberries Cake",
+      "name": "Chocolate Blueberries Cake",
+      "rating": 4.3,
+      "price": 10.5,
+      "description": "Experience pure indulgence with our Chocolate Blueberries Cake. Rich, velvety chocolate paired with bursts of juicy blueberries, creating a harmonious blend of flavors that will satisfy your deepest dessert cravings."
+    },
+    {
+      "id": 5,
+      "category": "cookie",
+      "image": "Chocolate Bonbons",
+      "name": "Chocolate Bonbons",
+      "rating": 4.9,
+      "price": 3.5,
+      "description": "Elevate your cookie experience with our exquisite Chocolate Bonbons. Delicately handcrafted, each bite-sized masterpiece delivers a symphony of rich chocolate and subtle sweetness that will leave you enchanted."
+    },
+    {
+      "id": 6,
+      "category": "cookie",
+      "image": "Chocolate Cookies",
+      "name": "Chocolate Cookies",
+      "rating": 4.1,
+      "price": 3.0,
+      "description": "Dive into the world of decadence with our Chocolate Cookies. Crispy on the outside, irresistibly chewy on the inside, these cookies are a celebration of deep chocolate flavor that will leave you craving for one more bite."
+    },
+    {
+      "id": 7,
+      "category": "cake",
+      "image": "Chocolate Cupcake",
+      "name": "Chocolate Cupcake",
+      "rating": 4.4,
+      "price": 4.5,
+      "description": "Savor the irresistible charm of our Chocolate Cupcake. Moist chocolate cake topped with a velvety swirl of frosting, each bite is a little piece of heaven that will take you on a delightful journey of pure cocoa bliss."
+    },
+    {
+      "id": 8,
+      "category": "cake",
+      "image": "Chocolate Summer Berries",
+      "name": "Chocolate Berries Cake",
+      "rating": 3.5,
+      "price": 8.5,
+      "description": "Elevate your summer celebrations with our Chocolate Summer Berries Cake. A symphony of rich chocolate and fresh berries, this cake is a perfect blend of decadence and fruity delight that will make every occasion special."
+    },
+    {
+      "id": 9,
+      "category": "cake",
+      "image": "Classic Cheesecake",
+      "name": "Classic Cheesecake",
+      "rating": 4.9,
+      "price": 11.5,
+      "description": "Experience the timeless allure of our Classic Cheesecake. Velvety smooth and rich, with a buttery graham cracker crust, each heavenly slice is a testament to the art of indulgence that will leave you craving more."
+    },
+    {
+      "id": 10,
+      "category": "cake",
+      "image": "Cookies Cream Cake",
+      "name": "Cookies Cream Cake",
+      "rating": 4.1,
+      "price": 10.5,
+      "description": "Embark on a journey of taste with our Cookies Cream Cake. Layers of moist cake interlaced with creamy vanilla frosting and chunks of delightful cookies, this cake is a symphony of textures and flavors that will leave you enchanted."
+    },
+    {
+      "id": 13,
+      "category": "brownie",
+      "image": "Isometric chocolate brownies",
+      "name": "chocolate brownie",
+      "rating": 4.9,
+      "price": 4.5
+    },
+    {
+      "id": 14,
+      "category": "cake",
+      "image": "Muffin Devil Horns",
+      "name": "Devil Horns Muffin",
+      "rating": 4.6,
+      "price": 3.5,
+      "description": "Experience a devilishly delicious treat with our Devil Horns Muffin. A playful twist on classic muffins, these devil horns offer a sinful fusion of flavors that will delight your taste buds and leave you craving more."
+    },
+    {
+      "id": 15,
+      "category": "cake",
+      "image": "Muffin Ghost",
+      "name": "Ghost Muffin",
+      "rating": 4.3,
+      "price": 3.5,
+      "description": "Evoke a sense of spooky delight with our Ghost Muffin. These charmingly ghostly muffins are a delightful treat for all ages, with a fluffy texture and a hint of sweetness that will leave you enchanted and ready to celebrate."
+    }
+  ],
+  "bestSeller": [
+    {
+      "id": 16,
+      "category": "cookie",
+      "image": "cookies",
+      "name": "Chocolate Chip Cookies",
+      "rating":4.9,
+      "price":4.5,
+      "description": "Irresistible Chocolate Chip Cookies that melt in your mouth, delivering a perfect blend of rich chocolate and buttery goodness. A delightful treat for any occasion."
+    },
+    {
+      "id": 17,
+      "category": "cake",
+      "image": "Monster Theme Cake",
+      "name": "Monster Cake",
+      "rating":4.7,
+      "price":8.5,
+      "description": "Unleash your inner monster with our whimsical Monster Theme Cake. Bursting with vibrant colors and scrumptious flavors, this cake is a playful creation that brings joy to every bite."
+    },
+    {
+      "id": 18,
+      "category": "cake",
+      "image": "best",
+      "name": "Caramel Cake",
+      "rating":4.8,
+      "price":10,
+      "description": "Indulge in the enchanting flavors of our Caramel Cake. A delectable treat that combines the sweetness of caramel with a moist and tender cake. An affordable yet delightful choice."
+    }
+  ]
+}

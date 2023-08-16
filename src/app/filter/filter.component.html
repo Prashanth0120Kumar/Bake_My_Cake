@@ -1,0 +1,19 @@
+<mat-expansion-panel class="panel">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <span class="material-symbols-outlined">
+          filter_alt
+          </span>      
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    
+    <div class="body">
+      <div class="filter-links">
+        <button (click)="filteration('')"><span>All</span></button>
+        <button (click)="filteration('cake')"><span>Cake</span></button>
+        <button (click)="filteration('cookie')"><span>Cookie</span></button>
+        <button (click)="filteration('brownie')"><span>Brownie</span></button>
+      </div>
+    </div>
+  </mat-expansion-panel>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />

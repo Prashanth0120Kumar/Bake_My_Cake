@@ -1,0 +1,36 @@
+<div>
+    <div>
+        <div>
+            <app-search (searchProduct)="searchProduct($event)"></app-search>
+        </div>
+        <app-best-seller></app-best-seller>
+
+        <div>
+            <app-filter (filterSelected)="applyFilter($event)"></app-filter>
+        </div><br>
+        
+        <h1 class="bShead">Our Products</h1>
+        
+        <hr>
+
+        <div id="card">
+            <div *ngFor="let product of products" class="ca">
+                <mat-card class="matcard" style="margin-left: 60px;" >
+                    <div class="card-content">
+                        <img class="pic" mat-card-image src="../../assets/pictures/{{ product.image }}.jpg">
+                        <div class="card-details">
+                            <mat-card-title class="cTitle">{{ product.name }}</mat-card-title>
+                            <mat-chip-listbox class="chip">
+                                <mat-chip-option [routerLink]="'/products/' + product.id" style="background-color:#FFEFDA;">Buy Now</mat-chip-option>
+                            </mat-chip-listbox>
+                        </div>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <app-footer></app-footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.bundle.min.js"></script> 

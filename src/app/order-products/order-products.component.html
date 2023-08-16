@@ -1,0 +1,24 @@
+<app-details *ngIf="orderSubmitted" [quantities]="quantityForm.value.quantity" [pricing]="totalAmount"
+  [cakename]="caname"></app-details>
+<form #quantityForm="ngForm" class="content">
+  <div class="card">
+    <h2>{{ product.name }}</h2>
+    <img class="pic" mat-card-image src="../../assets/pictures/{{ product.image }}.jpg">
+
+    <p>{{ product.description }}</p>
+
+    <div class="mat-form-field">
+      Price: {{ product.price }}
+      <input type="number" [(ngModel)]="quantity" (ngModelChange)="onQuantityChange()" name="quantity" required min="1">
+      <div
+        *ngIf="quantityForm.controls['quantity'].invalid && (quantityForm.controls['quantity'].dirty || quantityForm.controls['quantity'].touched)">
+        <mat-error>Invalid quantity</mat-error>
+      </div><br>
+      <div>Price/piece:{{product.price}}</div>
+
+      Total Amount: {{ quantityForm.invalid ? 'N/A' : totalAmount }}
+    </div>
+  </div>
+  <button class="btn" type="submit" mat-raised-button color="primary" [disabled]="quantityForm.invalid"
+    (click)="routing()">Confirm</button>
+</form>

@@ -1,0 +1,24 @@
+.searchBar
+{
+    width:200px;
+    margin-left:400px;
+    position: relative;
+    top: -80px;
+    right:10px
+
+}
+.btn
+{
+    margin-left: 950px;
+    position: relative;
+    top:-35px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+.form-control
+{
+    height: 30px;
+    margin-left: 800px;
+    background-color: #D0F0C0 ;
+}

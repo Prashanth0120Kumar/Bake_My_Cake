@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+.body
+{
+    background-color: #FFF4E1 ;
+}
+
+.btn
+{
+    margin-left: 50px;
+}
+
+.pic
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    transform: scale(0.9);
+}
+
+
+
+
+.bShead
+{
+    margin-left:300px;
+    position:relative;
+    top:10px;
+    left:-100px;
+    font-family:'Great Vibes';
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.cTitle
+{
+    /* margin-left: 10px; */
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.chip
+{
+  width: 100px;  
+  
+}
+
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.matcard{
+    margin-top: 8%;
+    width: 250px;
+    background-color: #FFDAB9 ;
+    border:1px solid black;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.ca:hover
+{
+    transform: scale(1.01);
+}
+
+.chip
+{
+    margin-left: 32%;
+}

@@ -1,0 +1,102 @@
+<div id="formcontainer">
+<form [formGroup]="userDetails" (ngSubmit)="onSubmit()" class="form" style="width: 50%;">
+    <div>
+        <mat-form-field appearance='fill' style="width: 80%;">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="firstName">
+            <mat-error *ngIf="firstName?.errors?.['required']">
+                First Name is required.
+            </mat-error>
+            <mat-error *ngIf="firstName?.errors?.['minlength']">
+                First Name should have a minimum of 2 characters.
+            </mat-error>
+            <mat-error *ngIf="firstName?.errors?.['invalidname']">
+                Name should not start with '0'.
+            </mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill" style="width: 80%;">
+            <mat-label>Enter your email</mat-label>
+            <input matInput formControlName="email">
+            <mat-error *ngIf="email?.errors?.['required']">
+                Email is required.
+            </mat-error>
+            <mat-error *ngIf="email?.errors?.['pattern']">
+                Enter a valid email address.
+            </mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Choose a date</mat-label>
+            <input matInput [min]="maxDate | date:'yyyy-MM-dd'" [matDatepicker]="picker" formControlName="date">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+            <mat-error *ngIf="date?.errors?.['required']">
+                Date is required.
+            </mat-error>
+            <mat-error *ngIf="date?.errors?.['pastDate']">
+                Date cannot be in the past.
+            </mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Phone Number</mat-label>
+            <input matInput formControlName="phoneNumber">
+            <mat-error *ngIf="phoneNumber?.errors?.['minlength']">
+                Phone Number should have a minimum of 10 digits.
+            </mat-error>
+        </mat-form-field>
+    </div>
+    <div formGroupName="address" style="margin-top: 3%;">
+        <p>Address</p>
+        <div>
+            <mat-form-field appearance="fill">
+                <mat-label>Street address</mat-label>
+                <input matInput formControlName="street">
+                <mat-error *ngIf="street?.errors?.['required']">
+                    Street Address is required.
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="fill">
+                <mat-label>City</mat-label>
+                <input matInput formControlName="city">
+                <mat-error *ngIf="city?.errors?.['required']">
+                    City name is required.
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>State</mat-label>
+                <input matInput formControlName="state">
+                <mat-error *ngIf="state?.errors?.['required']">
+                    State is required.
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="fill">
+                <mat-label>Zip Code</mat-label>
+                <input matInput formControlName="zipCode">
+                <mat-error *ngIf="zipCode?.errors?.['required']">
+                    Zip Code is required.
+                </mat-error>
+                <mat-error *ngIf="zipCode?.errors?.['minlength']">
+                    Zip Code should have a minimum of 5 characters.
+                </mat-error>
+                <mat-error *ngIf="zipCode?.errors?.['maxlength']">
+                    Zip Code should have a maximum of 6 characters.
+                </mat-error>
+            </mat-form-field>
+        </div>
+    </div>
+    <div>
+        <button mat-flat-button id="button" type="submit" [disabled]="!userDetails.valid"
+            color="primary" (click)="submit()">Place Order</button>
+    </div>
+</form>
+</div>

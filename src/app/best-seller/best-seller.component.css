@@ -1,0 +1,19 @@
+
+.bShead
+{
+    margin-left:300px;
+    position:relative;
+    top:10px;
+    left:-100px;
+    font-family:'Great Vibes';
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.bsPic
+{
+    width:100%;
+    height:450px;
+    margin-left:10px;
+    border-radius:10px;
+    position:relative;
+} 

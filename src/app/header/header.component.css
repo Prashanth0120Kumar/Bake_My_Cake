@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+.nav
+{
+    background-color: #D0F0C0 ;
+    height:3cm;
+}
+.material-symbols-outlined
+{
+    position: relative;
+    left:500px;
+    top:-10px;
+}
+.title
+{
+    margin-left: 42%;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    font-size:xxx-large;
+    transform: scale(1.1);
+    color: #333333;
+    padding-top: 40px;
+}
+
+
+.bShead
+{
+    margin-left:300px;
+    position:relative;
+    top:10px;
+    left:-100px;
+    font-family:'Great Vibes';
+    font-weight: bolder;
+    font-size: xx-large;
+}

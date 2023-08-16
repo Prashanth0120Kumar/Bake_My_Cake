@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.filter-links 
+{
+    
+    gap: 10px;
+    top:100px;
+    margin-bottom: 10px;
+}
+
+.filter-links button 
+{
+    padding: 6px 12px;
+    background-color: #D0F0C0 ;
+    color: #333333;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-family: 'Lobster';
+    font-weight: bolder;
+    font-size:x-large;
+    margin-bottom: 40px;
+
+}
+.filter-links button:hover
+{
+    background-color:blanchedalmond ;
+}
+
+.panel
+{
+    width :130px;
+    background-color:#FFF4E1 ;
+    
+}

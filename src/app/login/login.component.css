@@ -1,0 +1,16 @@
+.code
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.code input
+{
+    border: 0;
+    border-bottom: 10px;
+    height:1cm;
+}
+.code button
+{
+    margin-left: 10px;
+}

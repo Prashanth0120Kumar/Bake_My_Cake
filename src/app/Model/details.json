@@ -1,0 +1,84 @@
+{
+  "customerDetails": [
+    {
+      "firstName": "Prashanth",
+      "email": "prashanth0120.k@gmail.com",
+      "date": "2023-08-10T18:30:00.000Z",
+      "phoneNumber": "9789887910",
+      "quantity": 10,
+      "amount": 45,
+      "cakename": "Chocolate Cupcake",
+      "address": {
+        "street": "3rd street ",
+        "city": "Chennai",
+        "state": "TamilNadu",
+        "zipCode": "600106"
+      },
+      "id": 1
+    },
+    {
+      "firstName": "Roopesh ",
+      "email": "roopesh@1gmail.com",
+      "date": "2023-08-16T18:30:00.000Z",
+      "phoneNumber": "9840811807",
+      "quantity": 4,
+      "amount": 12,
+      "cakename": "Chocolate Cookies",
+      "address": {
+        "street": "5th street ",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600106"
+      },
+      "id": 2
+    },
+    {
+      "firstName": "Kumar ",
+      "email": "kumar@123gmail.com",
+      "date": "2023-08-16T18:30:00.000Z",
+      "phoneNumber": "9878987801",
+      "quantity": 3,
+      "amount": 30,
+      "cakename": "Caramel Cake",
+      "address": {
+        "street": "6th street ",
+        "city": "Chennai ",
+        "state": "Tamil Nadu ",
+        "zipCode": "600106"
+      },
+      "id": 3
+    },
+    {
+      "firstName": "Yughan ",
+      "email": "Yughan@gmail.com",
+      "date": "2023-08-12T18:30:00.000Z",
+      "phoneNumber": "9897887888",
+      "quantity": 4,
+      "amount": 14,
+      "cakename": "Chocolate Bonbons",
+      "address": {
+        "street": "No 2nd street ",
+        "city": "Chennai ",
+        "state": "Tamil Nadu",
+        "zipCode": "600106"
+      },
+      "id": 4
+    },
+    {
+      "firstName": "Lalitha",
+      "email": "lalitha33.k@gmail.com",
+      "date": "2023-08-23T18:30:00.000Z",
+      "phoneNumber": "9944075887",
+      "quantity": 1,
+      "amount": 10.5,
+      "cakename": "Chocolate Blueberries Cake",
+      "address": {
+        "street": "6th street ",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600105"
+      },
+      "id": 5
+    }
+  ]
+}
